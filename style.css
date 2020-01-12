@@ -1,24 +1,26 @@
 .container{
     background-color: cadetblue;
     text-align: center;
+    width: 960px;
 }
 
 .password_container {
 
-    background-color: cornsilk;
+    background-color: white;
     text-align: left;
+    padding: 20px;
 }
 
-.pasword-screen {
+#password-screen {
 
-    width: 100%;
-}
-
-{
-    background-color: crimson;
-}
-
-#password-screen{
     width: 500px;
     height: 100px;
+    text-align: center;
+
 }
+
+.generate{
+    background-color: crimson;
+   
+}
+

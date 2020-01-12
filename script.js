@@ -70,3 +70,8 @@
 
         document.getElementById("password-screen").value=password;
     }
+
+    function copy_password() {
+        document.getElementById("password-screen").select();
+        document.execCommand("Copy");
+    }
