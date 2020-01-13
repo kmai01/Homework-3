@@ -1,14 +1,17 @@
 .container{
-    background-color: cadetblue;
+    position: absolute;
+    background-color: lightsteelblue;
+    
     text-align: center;
-    width: 960px;
+    width:960px;
 }
 
 .password_container {
-
+    
     background-color: white;
     text-align: left;
     padding: 20px;
+    align-self: center;
 }
 
 #password-screen {

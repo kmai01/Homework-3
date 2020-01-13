@@ -11,9 +11,17 @@
 
         var password_L= prompt("Please enter the length of password, lenght must be between 8 and 128 characters)");
 
-        
-
         console.log(password_L)
+
+        if ( password_L < 8 || password_L > 128 ) {
+
+            alert("Lenght is out of the range or null, click Generate Password button again to restart");
+            
+            
+            
+        }
+         else {
+        
 
 
         var confirm_Uppercase= confirm("Will the password include upper case?");
@@ -69,6 +77,7 @@
         }
 
         document.getElementById("password-screen").value=password;
+      }
     }
 
     function copy_password() {
