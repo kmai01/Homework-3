@@ -1,11 +1,15 @@
 .container {
 
     background-color: lightsteelblue;
-    
     text-align: center;
   
 }
 
+.innercontainer {
+    background-color: white;
+    padding: 50px;
+    
+}
 .password_container {
     
     background-color: white;
